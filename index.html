@@ -1,0 +1,18 @@
+<html>
+     <body>
+        <script src="scripts.js"></script>
+
+<img id="myImage" onclick="SwapImage()"  src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+
+        <button id="myButton" onclick="SwapImage()">Turn ON light</button>
+
+        Click to get current Date: 
+	<button id="btnDate" onclick="document.getElementById('pShowDate').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+        <p id="pShowDate"></p>
+
+
+<img id="myImage" onclick="SwapImageHover()" onmouseover="SwapImageHover(this)" onmouseout="SwapImageHover(this)"  
+        src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+</body>
+</html>
